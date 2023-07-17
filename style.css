@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+}
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 42px;
+}
+
+
+.header-link {
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+}
+
+
+h1 {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 109px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px; 
+    max-width: 243px;
+}
+.prewie__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 171px;
+    padding-bottom: 52px;
+}
+.prewie__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+button{
+    border: 1px solid #C28428;
+    border-radius: 7px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #C28428;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 14px;
+    margin-bottom: 109px;
+}
+.prewie__number{
+    display: block;
+}
+.prewie{
+   background-image: url(images/prewie.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: rgba(29, 29, 29, 0.66);
+
+}
+.menu__foods{
+    display: flex;
+}
+
+.prewie__number{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #666666;
+    }
+
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.menu_eda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+}
